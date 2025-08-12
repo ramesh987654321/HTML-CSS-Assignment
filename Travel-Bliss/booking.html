@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Bliss - Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Travel Bliss</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="booking.html">Booking</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Book Your Trip</h2>
+        <form>
+            <label>Name:</label>
+            <input type="text" name="name" required>
+
+            <label>Email:</label>
+            <input type="email" name="email" required>
+
+            <label>Destination:</label>
+            <select name="destination">
+                <option>Murdeshwara</option>
+                <option>Mysore Palace</option>
+                <option>Hampi</option>
+                <option>Netravati Peak</option>
+            </select>
+
+            <label>Travel Type:</label>
+            <input type="radio" name="type" value="Solo"> Solo
+            <input type="radio" name="type" value="Family"> Family
+            <input type="radio" name="type" value="Couple"> Couple
+
+            <label>Extras:</label>
+            <input type="checkbox" name="extras" value="Guide"> Tour Guide
+            <input type="checkbox" name="extras" value="Meals"> Meals Included
+
+            <button type="submit">Book Now</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Travel Bliss. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTour – Explore Nature</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Branding -->
+    <header>
+        <div class="branding">
+            <img src="logo.jpg" alt="EcoTour Logo" class="logo">
+            <h1>EcoTour – Explore Nature</h1>
+        </div>
+        <!-- Sticky Navigation -->
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Discover the Beauty of Nature</h2>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About EcoTour</h2>
+        <p>EcoTour is dedicated to promoting eco-friendly travel and helping adventurers explore the wonders of nature while preserving the environment. Join us for breathtaking journeys that leave only footprints behind.</p>
+    </section>
+
+    <!-- Image Gallery -->
+    <section id="gallery" class="gallery">
+        <h2>Travel Gallery</h2>
+        <div class="grid">
+            <img src="https://picsum.photos/id/1015/400/300" alt="Nature 1">
+            <img src="https://picsum.photos/id/1025/400/300" alt="Nature 2">
+            <img src="https://picsum.photos/id/1035/400/300" alt="Nature 3">
+            <img src="https://picsum.photos/id/1045/400/300" alt="Nature 4">
+            <img src="https://picsum.photos/id/1055/400/300" alt="Nature 5">
+            <img src="https://picsum.photos/id/1065/400/300" alt="Nature 6">
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label>Email:</label>
+            <input type="email" name="email" required>
+
+            <label>How did you hear about us?</label>
+            <div class="radio-group">
+                <label><input type="radio" name="source" value="friends" required> Friends</label>
+                <label><input type="radio" name="source" value="internet"> Internet</label>
+                <label><input type="radio" name="source" value="other"> Other</label>
+            </div>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+   <footer>
+    <div class="footer-container">
+        <p class="footer-text">Follow us on</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Facebook_Logo.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram">
+            </a>
+        </div>
+        <p class="footer-copy">&copy; 2025 EcoTour. All rights reserved.</p>
+    </div>
+</footer>
+
+
+</body>
+</html>
