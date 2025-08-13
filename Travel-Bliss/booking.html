@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Travel Bliss - Booking</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <header>
@@ -21,10 +21,10 @@
         <h2>Book Your Trip</h2>
         <form>
             <label>Name:</label>
-            <input type="text" name="name" required>
+            <input type="text" name="name" required />
 
             <label>Email:</label>
-            <input type="email" name="email" required>
+            <input type="email" name="email" required />
 
             <label>Destination:</label>
             <select name="destination">
@@ -35,13 +35,15 @@
             </select>
 
             <label>Travel Type:</label>
-            <input type="radio" name="type" value="Solo"> Solo
-            <input type="radio" name="type" value="Family"> Family
-            <input type="radio" name="type" value="Couple"> Couple
+            <input type="radio" name="type" value="Solo" /> Solo
+            <input type="radio" name="type" value="Family" /> Family
+            <input type="radio" name="type" value="Couple" /> Couple
 
             <label>Extras:</label>
-            <input type="checkbox" name="extras" value="Guide"> Tour Guide
-            <input type="checkbox" name="extras" value="Meals"> Meals Included
+            <div class="extras-group">
+                <label><input type="checkbox" name="extras" value="Guide" /> Tour Guide</label>
+                <label><input type="checkbox" name="extras" value="Meals" /> Meals Included</label>
+            </div>
 
             <button type="submit">Book Now</button>
         </form>
