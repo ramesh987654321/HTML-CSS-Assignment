@@ -91,6 +91,24 @@ form input, form select, form textarea {
     border: 1px solid #ccc;
 }
 
+/* Extras checkboxes aligned horizontally */
+.extras-group {
+    display: flex;
+    gap: 20px;
+    margin-top: 5px;
+    flex-wrap: wrap;
+}
+
+.extras-group label {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+}
+
+.extras-group input[type="checkbox"] {
+    margin-right: 6px;
+}
+
 button {
     background: #0d6efd;
     color: white;
@@ -104,7 +122,6 @@ button {
 button:hover {
     background: #0b5ed7;
 }
-
 /* Footer (Fixed) */
 footer {
     background-color: #0d6efd;
